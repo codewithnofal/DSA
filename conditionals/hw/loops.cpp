@@ -56,10 +56,10 @@ using namespace std;
 
 // 5. print reverse numbers;
 
-int main()
-{
-    for (int i = 10; i >= 1; i--)
-    {
-        cout << i << endl;
-    }
-}
+// int main()
+// {
+//     for (int i = 10; i >= 1; i--)
+//     {
+//         cout << i << endl;
+//     }
+// }
