@@ -85,32 +85,46 @@ using namespace std;
 //     }
 // }
 
+// int main()
+// {
+//     int i, j;
+
+//     for (i = 1; i <= 5; i++)
+//     {
+//         for (j = 1; j <= 5; j++)
+//         {
+//             char name = 'a' + j - 1;
+//             cout << name << " ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int main()
+// {
+//     int i;
+//     char name;
+
+//     for (i = 1; i <= 5; i++)
+//     {
+//         for (name = 'a'; name <= 'e'; name++)
+//         {
+//             cout << name << " ";
+//         }
+//         cout << endl;
+//     }
+// }
+
 int main()
 {
-    int i, j;
+    int i, j, count = 1;
 
     for (i = 1; i <= 5; i++)
     {
         for (j = 1; j <= 5; j++)
         {
-            char name = 'a' + j -1;
-            cout << name << " ";
-        }
-        cout << endl;
-    }
-}
-
-
-int main()
-{
-    int i;
-    char name;
-
-    for (i = 1; i <= 5; i++)
-    {
-        for (name = 'a'; name <= 'e'; name++)
-        {
-            cout << name << " ";
+            cout<< count << " ";
+            count++;
         }
         cout << endl;
     }
