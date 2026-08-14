@@ -43,18 +43,18 @@ using namespace std;
 //     }
 // }
 
-int main()
-{
-    int i;
-    char j;
+// int main()
+// {
+//     int i;
+//     char j;
 
-    for (i = 1; i <= 5; i++)
-    {
+//     for (i = 1; i <= 5; i++)
+//     {
 
-        for (j = 'F'; j <= 'K'; j++)
-        {
-            cout << j << " ";
-        }
-        cout << endl;
-    }
-}
+//         for (j = 'F'; j <= 'K'; j++)
+//         {
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+// }
