@@ -87,9 +87,9 @@ int main()
         {
             cout << "  ";
         }
-        for (j = 1; j <= i; j++)
+        for (j = n; j > n-i; j--)
         {
-            cout << "* ";
+            cout << j << " ";
         }
         cout << endl;
     }
