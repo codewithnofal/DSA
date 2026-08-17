@@ -150,9 +150,10 @@ int main()
 
     for (i = 1; i <= 5; i++)
     {
-        for (j = i; j >= 1; j--)
+        for (j = 1; j <= i; j++)
         {
-            cout << j << " ";
+            char name = 'a' + j - 1;
+            cout << name << " ";
         }
         cout << endl;
     }
