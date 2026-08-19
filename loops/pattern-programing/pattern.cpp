@@ -159,17 +159,38 @@ using namespace std;
 //     }
 // }
 
+// int main()
+// {
+//     int i, j, n;
+//     cout << "Enter a number: ";
+//     cin >> n;
+
+//     for (i = 1; i <= n; i++)
+//     {
+//         for (j = 1; j <= n - i + 1; j++)
+//         {
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+// }
+
 int main()
 {
-    int i, j, n;
-    cout << "Enter a number: ";
+    int row, col, n;
+
+    cout << "Enter a Number: ";
     cin >> n;
 
-    for (i = 1; i <= n; i++)
+    for (row = 1; row <= 5; row++)
     {
-        for (j = 1; j <= n - i + 1; j++)
+        for (col = 1; col <= n - row; col++)
         {
-            cout << j << " ";
+            cout << "  ";
+        }
+        for (col = 1; col <= 2 * row - 1; col++)
+        {
+            cout << "* ";
         }
         cout << endl;
     }
