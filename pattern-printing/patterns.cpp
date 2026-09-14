@@ -92,11 +92,34 @@ void pattern7(int n)
         cout << endl;
     }
 }
+void pattern8(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        // star
+        for (int k = 0; k < n * 2 - (2 * i + 1); k++)
+        {
+            cout << "*";
+        }
 
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+}
 int main()
 {
     int n;
     cout << "Enter a Number: ";
     cin >> n;
     pattern7(n);
+    pattern8(n);
 }
