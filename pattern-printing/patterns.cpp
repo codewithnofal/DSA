@@ -115,11 +115,30 @@ void pattern8(int n)
         cout << endl;
     }
 }
+// pattern 9 
+
+void pattern10(int n){
+    for(int i=1; i<=n*2-1; i++){
+
+        int star = i;
+
+        if(i > n) star = 2*n-i;
+        for(int j=0; j<star; j++){
+            cout << "* ";
+        }
+        cout<<endl;
+    }
+}
+
+
+
+
+
+
 int main()
 {
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern7(n);
-    pattern8(n);
+    pattern10(n);
 }
