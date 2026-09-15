@@ -174,7 +174,16 @@ void pattern12(int n){
     
 }
 
-
+void pattern13(int n){
+    int num = 1;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=i; j++){
+            cout << num << " ";
+            num++;
+        }
+         cout << endl;
+    }
+}
 
 
 int main()
@@ -182,5 +191,5 @@ int main()
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern12(n);
+    pattern13(n);
 }
