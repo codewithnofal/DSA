@@ -186,10 +186,39 @@ void pattern13(int n){
 }
 
 
+void pattern14(int n){
+    for(int i=0; i<n; i++){
+        for(char c = 'A'; c<= 'A' + i; c++ ){
+            cout << c;
+        }
+        cout << endl;
+    }
+}
+
+
+void pattern15(int n){
+    for(int i=0; i<n; i++){
+        for(char c = 'A'; c<= 'A' + n - i - 1; c++ ){
+            cout << c << " ";
+        }
+        cout << endl;
+    }
+}
+
+void pattern16(int n){
+    for(int i=0; i<n; i++){
+        char ch = 'A' + i;
+        for(int j=0; j<=i; j++ ){
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+
 int main()
 {
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern13(n);
+    pattern16(n);
 }
