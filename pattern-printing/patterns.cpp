@@ -216,35 +216,53 @@ void pattern16(int n){
 }
 
 void pattern(int n){
-    int space = 2*(n-1);
-        for(int i=0; i<n; i++){
-            // digit
-            for(int j=1; j<=i; j++){
-                cout << j;
-            }
-
-            // space
-            for(int j=1; j<=space; j++){
-                cout << " ";
-            }
-
-            // digit
-             for(int j=i; j>=1; j--){
-                cout << j;
-            }
-            cout << endl;
-            space -= 2;
+    for(int i=0; i<n; i++){
+        for(char ch='A'; ch<= 'A' + n-i-1; ch++){
+            cout << ch << " ";
         }
+        cout << endl;
+    }
 }
 
 
+void pattern17(int n) {
+    for(int i=0; i<n; i++){
+        // space
+        for(int j=0; j<n-i-1; j++){
+            cout << " ";
+        }
+
+        // alphabate
+        char ch = 'A';
+        int breakPoint = (2*i+1) / 2;
+        for(int j=1; j<=2*i+1; j++){
+            cout << ch;
+            if(j<=breakPoint) ch++;
+            else ch--;
+        }
 
 
+        // space
+        for(int j=0; j<n-i-1; j++){
+            cout << " ";
+            
+        }
+        cout << endl;
+    }
+}
+void pattern18(int n){
+    for(int i=0; i<n; i++){
+        for(char ch = 'E' - i; ch<='E'; ch++){
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
 
 int main()
 {
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern(n);
+    pattern18(n);
 }
