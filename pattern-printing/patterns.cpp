@@ -259,7 +259,50 @@ void pattern18(int n){
     }
 }
 
+void pattern19(int n){
+    int space = 0;
+    for(int i=0; i<n; i++){
+        // star
+        for(int j=0; j<=n-i-1; j++){
+            cout << "*";
+        }
 
+        // space
+
+        for(int j=0; j<space; j++ ){
+            cout << " ";
+        }
+
+         // star
+        for(int j=0; j<=n-i-1; j++){
+            cout << "*";
+        }
+        cout << endl;
+        space += 2;
+
+    }
+    space = 2 * (n-1);
+    for(int i=0; i<n; i++){
+        // print
+        for(int j=0; j<=i; j++){
+            cout << "*";
+        }
+
+
+        // space
+        for(int j=0; j<space; j++){
+            cout << " ";
+        }
+
+
+        // print
+        for(int j=0; j<=i; j++){
+            cout << "*";
+        }
+        cout << endl;
+        space -= 2;
+    }
+}
 
 
 
@@ -272,5 +315,5 @@ int main()
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern18(n);
+    pattern19(n);
 }
