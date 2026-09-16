@@ -259,6 +259,14 @@ void pattern18(int n){
     }
 }
 
+
+
+
+
+
+
+
+
 int main()
 {
     int n;
