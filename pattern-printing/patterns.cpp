@@ -360,11 +360,14 @@ void pattern22(int n){
     }
 }
 
+void pattern23(int n){
 
+    
+}
 int main()
 {
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern21(n);
+    pattern23(n);
 }
