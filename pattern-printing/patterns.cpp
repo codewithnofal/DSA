@@ -407,10 +407,28 @@ void pattern23(int n){
 
     }
 }
+
+void pattern24(int n){
+    int space = 0;
+    for(int i=1; i<=n; i++){
+        // star
+        for(int j=1; j<=n; j++){
+            if(i==1 || j==5 || j == n-1){
+                cout << "*";
+            }
+            else{
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+}
+
+
 int main()
 {
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    pattern23(n);
+    pattern24(n);
 }
