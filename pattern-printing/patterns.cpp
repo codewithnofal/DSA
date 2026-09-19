@@ -409,19 +409,19 @@ void pattern23(int n){
 }
 
 void pattern24(int n){
-    int space = 0;
-    for(int i=1; i<=n; i++){
-        // star
-        for(int j=1; j<=n; j++){
-            if(i==1 || j==5 || j == n-1){
-                cout << "*";
-            }
-            else{
-                cout << "  ";
-            }
-        }
-        cout << endl;
+  for(int i=0; i<2*n-1; i++){
+    for(int j=0; j<2*n-1; j++){
+        int top = i; 
+        int left = j;
+        int right = (2 * n - 2) - j;
+        int bottom = (2 * n - 2) - i;
+
+        int minVal = min(min(top, bottom), min(right, left));
+
+        cout << (n- minVal) << " ";
     }
+    cout << endl;
+  }
 }
 
 
