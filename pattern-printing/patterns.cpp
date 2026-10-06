@@ -13,7 +13,6 @@ void pattern1(int n)
     }
 }
 void pattern2(int n)
-
 {
     for (int i = 1; i <= n; i++)
     {
@@ -35,7 +34,7 @@ void pattern3(int n)
         }
         cout << endl;
     }
-}
+};
 void pattern4(int n)
 
 {
