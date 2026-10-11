@@ -2,7 +2,6 @@
 using namespace std;
 
 // 1.calculate power of number.
-
 // int main()
 // {
 //     int n, i, pow, num;
