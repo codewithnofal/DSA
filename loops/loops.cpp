@@ -5,7 +5,6 @@ using namespace std;
 // int main()
 // {
 //     int n, i, pow, num;
-
 //     cout << "enter your number: ";
 //     cin >> n;
 //     cout << "enter a power: ";
