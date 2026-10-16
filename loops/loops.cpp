@@ -11,7 +11,6 @@ using namespace std;
 //     cin >> pow;
 
 //     num = n;
-
 //     for (i = 1; i < pow; i++)
 //     {
 //         num *= n;
