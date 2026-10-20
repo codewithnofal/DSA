@@ -22,7 +22,6 @@ using namespace std;
 //     int n, i;
 //     cout << "Enter a number: ";
 //     cin >> n;
-
 //     if (n < 2)
 //     {
 //         cout << "Not Prime";
