@@ -42,7 +42,6 @@ using namespace std;
 //     }
 // }
 // fibonacci num.
-
 int main()
 {
     int n, i, curr, last = 0, prev = 1;
