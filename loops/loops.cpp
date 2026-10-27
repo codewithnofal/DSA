@@ -16,7 +16,6 @@ using namespace std;
 //     }
 //     cout << num;
 // }
-
 // int main()
 // {
 //     int n, i;
