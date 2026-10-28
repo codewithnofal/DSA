@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // 1.calculate power of number.
 // int main()
 // {
