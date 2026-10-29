@@ -42,7 +42,7 @@ using namespace std;
 // fibonacci num.
 int main()
 {
-    int n, i, curr, last = 0, prev = 1;
+int n, i, curr, last = 0, prev = 1;
     cout << "Enter a Number: ";
     cin >> n;
 
