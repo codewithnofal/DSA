@@ -52,5 +52,5 @@ int n, i, curr, last = 0, prev = 1;
         last = prev;
         prev = curr;
     }
-    cout << last;
+    cout << last
 }
