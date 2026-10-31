@@ -45,7 +45,6 @@ int main()
 int n, i, curr, last = 0, prev = 1;
     cout << "Enter a Number: ";
     cin >> n;
-
     for (i = 1; i <= n; i++)
     {
         curr = prev + last;
