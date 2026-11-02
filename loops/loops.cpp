@@ -24,7 +24,7 @@ using namespace std;
 //     {
 //         cout << "Not Prime";
 //         return 0;
-//     }
+//     
 //     else
 //     {
 //         for (i = 2; i < n; i++)
