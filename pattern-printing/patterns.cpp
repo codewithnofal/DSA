@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 void pattern1(int n)
 {
     for (int i = 1; i <= n; i++)
