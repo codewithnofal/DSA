@@ -24,7 +24,6 @@ void pattern2(int n)
     }
 }
 void pattern3(int n)
-
 {
     for (int i = 1; i <= n; i++)
     {
