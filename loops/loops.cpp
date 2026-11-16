@@ -11,7 +11,7 @@ using namespace std;
 //     num = n;
 //     for (i = 1; i < pow; i++)
 //     {
-//         num *= n;
+//         num *= n
 //     }
 //     cout << num;
 // }
